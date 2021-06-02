@@ -1,0 +1,41 @@
+C:\Users\ProDesk\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.7717.62\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" "D:\jsj\2. 개발업무\src\work\linux_part1"
+-- The C compiler identification is MSVC 19.28.29337.0
+-- The CXX compiler identification is MSVC 19.28.29337.0
+-- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/VC/Tools/MSVC/14.28.29333/bin/Hostx86/x86/cl.exe
+-- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/VC/Tools/MSVC/14.28.29333/bin/Hostx86/x86/cl.exe - broken
+CMake Error at C:/Users/ProDesk/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/203.7717.62/bin/cmake/win/share/cmake-3.17/Modules/CMakeTestCCompiler.cmake:60 (message):
+  The C compiler
+
+    "C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/VC/Tools/MSVC/14.28.29333/bin/Hostx86/x86/cl.exe"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: D:/jsj/2. 媛쒕컻�뾽臾�/src/work/linux_part1/cmake-build-debug/CMakeFiles/CMakeTmp
+    
+    Run Build Command(s):nmake /nologo cmTC_3463b\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_3463b.dir\build.make /nologo -L                  CMakeFiles\cmTC_3463b.dir\build
+    Building C object CMakeFiles/cmTC_3463b.dir/testCCompiler.c.obj
+    	C:\PROGRA~2\MICROS~2\2019\PROFES~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @C:\Users\ProDesk\AppData\Local\Temp\nm5EAD.tmp
+    testCCompiler.c
+    Linking C executable cmTC_3463b.exe
+    	C:\Users\ProDesk\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.7717.62\bin\cmake\win\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\cmTC_3463b.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\PROFES~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_3463b.dir\objects1.rsp @C:\Users\ProDesk\AppData\Local\Temp\nm5FF6.tmp
+    LINK Pass 1: command "C:\PROGRA~2\MICROS~2\2019\PROFES~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_3463b.dir\objects1.rsp /out:cmTC_3463b.exe /implib:cmTC_3463b.lib /pdb:D:\jsj\2. ???????\src\work\linux_part1\cmake-build-debug\CMakeFiles\CMakeTmp\cmTC_3463b.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_3463b.dir/intermediate.manifest CMakeFiles\cmTC_3463b.dir/manifest.res" failed (exit code 1201) with the following output:
+    LINK : fatal error LNK1201: 'D:\jsj\2. ???????\src\work\linux_part1\cmake-build-debug\CMakeFiles\CMakeTmp\cmTC_3463b.pdb' �봽濡쒓렇�옩 �뜲�씠�꽣踰좎씠�뒪瑜� �벐�뒗 �룞�븞 �삤瑜섍� 諛쒖깮�뻽�뒿�땲�떎. �뵒�뒪�겕 怨듦컙�씠 遺�議깊븳吏�, 寃쎈줈媛� �옒紐삳릺�뿀�뒗吏� �삉�뒗 沅뚰븳�씠 �뾾�뒗吏� �솗�씤�븯�떗�떆�삤.
+    NMAKE : fatal error U1077: 'C:\Users\ProDesk\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.7717.62\bin\cmake\win\bin\cmake.exe' : '0xffffffff' 諛섑솚 肄붾뱶�엯�땲�떎.
+    Stop.
+    NMAKE : fatal error U1077: '"C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\nmake.exe"' : '0x2' 諛섑솚 肄붾뱶�엯�땲�떎.
+    Stop.
+    
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:2 (project)
+
+
+-- Configuring incomplete, errors occurred!
+See also "D:/jsj/2. 媛쒕컻�뾽臾�/src/work/linux_part1/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "D:/jsj/2. 媛쒕컻�뾽臾�/src/work/linux_part1/cmake-build-debug/CMakeFiles/CMakeError.log".

@@ -1,0 +1,18 @@
+Determining if the C compiler works failed with the following output:
+Change Dir: D:/jsj/2. 개발업무/src/work/linux_part1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_3463b\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_3463b.dir\build.make /nologo -L                  CMakeFiles\cmTC_3463b.dir\build
+Building C object CMakeFiles/cmTC_3463b.dir/testCCompiler.c.obj
+	C:\PROGRA~2\MICROS~2\2019\PROFES~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @C:\Users\ProDesk\AppData\Local\Temp\nm5EAD.tmp
+testCCompiler.c
+Linking C executable cmTC_3463b.exe
+	C:\Users\ProDesk\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.7717.62\bin\cmake\win\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\cmTC_3463b.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\PROFES~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_3463b.dir\objects1.rsp @C:\Users\ProDesk\AppData\Local\Temp\nm5FF6.tmp
+LINK Pass 1: command "C:\PROGRA~2\MICROS~2\2019\PROFES~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_3463b.dir\objects1.rsp /out:cmTC_3463b.exe /implib:cmTC_3463b.lib /pdb:D:\jsj\2. ???????\src\work\linux_part1\cmake-build-debug\CMakeFiles\CMakeTmp\cmTC_3463b.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_3463b.dir/intermediate.manifest CMakeFiles\cmTC_3463b.dir/manifest.res" failed (exit code 1201) with the following output:
+LINK : fatal error LNK1201: 'D:\jsj\2. ???????\src\work\linux_part1\cmake-build-debug\CMakeFiles\CMakeTmp\cmTC_3463b.pdb' 프로그램 데이터베이스를 쓰는 동안 오류가 발생했습니다. 디스크 공간이 부족한지, 경로가 잘못되었는지 또는 권한이 없는지 확인하십시오.
+NMAKE : fatal error U1077: 'C:\Users\ProDesk\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.7717.62\bin\cmake\win\bin\cmake.exe' : '0xffffffff' 반환 코드입니다.
+Stop.
+NMAKE : fatal error U1077: '"C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\nmake.exe"' : '0x2' 반환 코드입니다.
+Stop.
+
+
+
